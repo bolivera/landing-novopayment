@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Proyecto de react - Prueba Técnica
 
 Proyecto de prueba técnica [Create React App](https://github.com/facebook/create-react-app).
 
