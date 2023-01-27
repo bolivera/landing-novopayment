@@ -1,17 +1,20 @@
-import React from "react";
+import React, { Component } from 'react';
+
+
 import "./Home.scss";
 
-
-const Home = () => {
-    return (
-        <main>
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="h-150 bg-content" style={{   backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/images/bg-content.jpg'})` }}></div>
+class Home extends Component {
+    //render de component
+    render() {
+        return (
+            <main>
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="h-150 bg-content" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/images/bg-content.jpg'})` }}></div>
+                    </div>
                 </div>
-            </div>
-        </main>
-    );
+            </main>
+        );
+    }
 }
-
 export default Home;
