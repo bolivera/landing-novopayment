@@ -1,7 +1,9 @@
 # Proyecto de react - Prueba Técnica
 
-Proyecto de prueba técnica [Create React App](https://github.com/facebook/create-react-app).
+Proyecto de prueba técnica.
 
+### `npm install`
+Para instalar los paquetes del proyecto
 ### `npm start`
 Para iniciar el proyecto en desarrollo
 ### `npm test`
