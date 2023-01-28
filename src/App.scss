@@ -6,5 +6,19 @@ $theme-colors: (
 );
 
 /* import bootstrap to set changes */
+$border-color:      #22c5cb;
 @import "~bootstrap/scss/bootstrap";
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+.nav-link:visited,
+.nav-link:link {
+  border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  border-bottom: 2px solid #1500a1;
+}
